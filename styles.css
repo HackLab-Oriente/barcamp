@@ -130,6 +130,7 @@ img { max-width: 100%; height: auto; display: block; }
 .allies span { font: 400 15px var(--text); color: var(--ash); }
 .allies .logo-card { background: var(--paper); border-color: var(--paper); }
 .allies .logo-card img { height: 72px; width: auto; }
+.allies .logo-card a { display: block; }
 
 /* footer */
 .foot { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 16px; padding-block: 32px; border-top: 1px solid var(--rule); color: var(--ash); font-size: 14px; }
