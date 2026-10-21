@@ -147,3 +147,10 @@ img { max-width: 100%; height: auto; display: block; }
   .facts li:first-child { border-top: 0; }
   .steps { grid-template-columns: 1fr; }
 }
+
+/* easter eggs */
+.egg-rain { position: fixed; inset: 0; width: 100vw; height: 100vh; pointer-events: none; z-index: 50; opacity: .55; transition: opacity .8s; }
+.egg-rain.out { opacity: 0; }
+.egg-toast { position: fixed; left: 50%; bottom: 28px; transform: translateX(-50%); z-index: 60; background: var(--panel); color: var(--cyan); border: 1.5px solid var(--cyan); border-radius: 999px; padding: 12px 22px; font: 500 15px var(--code); box-shadow: 0 0 30px rgba(0, 212, 212, .45); max-width: calc(100vw - 32px); text-align: center; }
+.hero-logo img { transition: filter .6s; }
+.on-fire .hero-logo img { filter: drop-shadow(0 0 28px #00D4D4) drop-shadow(0 0 80px rgba(0, 212, 212, .8)) brightness(1.2); }
